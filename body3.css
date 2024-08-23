@@ -1,0 +1,39 @@
+body{
+    height: 400px;
+    background-color: grey; 
+    border: 10px;
+    border-color: dodgerblue;
+    border-style: dotted;
+    font-family: Fantasy;
+    text-align: center;
+    background-image: ;
+}
+
+h3 button{
+    padding: 16px 30px;
+    margin: 6px 3px;
+    border: #3333bb;
+    border-radius: 10px;
+    height: 60px;
+    background-color: #3333bb
+    background-image (round);
+    color:maroon;
+    style: transparent
+    width: 150px;
+    text-decoration-color: rgb(6, 6, 84);
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#movingImage {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+h2{
+
+}
+

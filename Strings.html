@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Validation 3.2</title>
+    <script src= "StringsAction.js"></script>
+    <link href = "StringsStyle.css" rel = "stylesheet" type = "text/css"/>
+    <!--Morgan Vidra-->
+</head>
+<body>
+    <h2>
+        <nav>
+            <button onclick><a href = "meme.index.html">Index</a></button>     <button onclick><a href = "game.html">Game</a></button>     <button onclick><a href = "Palindrome3.1.html">Palindrome</a></button>     <button onclick><a href = "Strings.html">User Input Validation</a></button>     <button onclick><a href = "Index3.html">Event Driven Programming</a></button>     <button onclick><a href = "IncorporateAudio.html">Incorporate Audio</a></button>     <button onclick><a href = "Boards.html">Boards </a></button>     <button onclick><a href = "Tables.html">Table</a></button>
+        </nav>
+    </h2>
+    <!--Top of Page-->
+<header>
+
+    <h1> Validate Your Credentials</h1>
+</header>
+
+    <br>
+    <!--Validation-->
+    <form id = "loginSubmit" onsubmit = "return false">
+        First Name:  <input type="text" id = "fname"/>
+        Last Name:   <input type ="text" id = "lname"/>
+        Zip Code: <input type = "number" id = "zipID"/>
+        <input type = "submit" onclick = "checkCreds();">
+        <!--Break Break Break-->
+    <br>
+    <br>
+    <br>
+    <!--Message-->
+        <p id = "loginStatus" >Ready for the secret message?</p>
+
+    </form>
+<!--My Initials-->
+<footer>MV</footer>
+
+</body>
+</html>

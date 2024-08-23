@@ -1,0 +1,30 @@
+
+body {
+    padding-top: 40px;
+    background-color: cadetblue;
+    color: brown;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    color: darkgreen;
+    font-style: oblique;
+}
+
+p {
+    padding: 70px;
+    font-size: medium;
+    text-align: center;
+    text-decoration: wavy;
+    font-style: italic;
+    color: mediumvioletred; 
+}
+
+footer {
+    text-align: center;
+    text-align: bottom; 
+    color: black;
+    
+}
